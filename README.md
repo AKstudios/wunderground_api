@@ -1,5 +1,5 @@
 # wunderground_api
-Python script to extract historical hourly weather data from any weather station and between any two dates.
+Python script to extract historical hourly weather data from any personal weather station on Wunderground and between any two dates.
 
 ## Prerequistes
 - Python 3.6+ (for pyppeteer & asyncio)
