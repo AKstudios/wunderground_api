@@ -1,12 +1,18 @@
 # Download raw weather data from wunderground in a csv file
 # Developed by  Akram Ali
-# Updated on 2021-01-23
+# Updated on 2021-03-04
 
 import asyncio
+import nest_asyncio 
 import pandas as pd
 from pyppeteer import launch
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
+
+native = False  # if you're using Python in Jupyter, Spyder or Anaconda environment, set native to False
+
+if native is False:
+    nest_asyncio.apply() # hot fix taken from https://medium.com/@vyshali.enukonda/how-to-get-around-runtimeerror-this-event-loop-is-already-running-3f26f67e762e
 
 start = '2021-1-1'
 end = '2021-1-5'
