@@ -2,13 +2,10 @@
 Python script to extract historical hourly weather data from any weather station and between any two dates.
 
 ## Prerequistes
-Python 3.6+ (for pyppeteer & asyncio)
-
-[pandas](https://pandas.pydata.org/)
-
-[pyppeteer](https://pypi.org/project/pyppeteer/)
-
-[BeautifulSoup 4](https://pypi.org/project/beautifulsoup4/)
+- Python 3.6+ (for pyppeteer & asyncio)
+- [pandas](https://pandas.pydata.org/)
+- [pyppeteer](https://pypi.org/project/pyppeteer/)
+- [BeautifulSoup 4](https://pypi.org/project/beautifulsoup4/)
 
 
 ## How to use
