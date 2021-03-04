@@ -5,12 +5,12 @@
 import asyncio
 import pandas as pd
 from pyppeteer import launch
+from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
 start = '2021-1-1'
 end = '2021-1-5'
 station = 'KILCHICA692'
-from bs4 import BeautifulSoup
 
 start_dt = datetime.strptime(start, '%Y-%m-%d')
 end_dt = datetime.strptime(end, '%Y-%m-%d')
