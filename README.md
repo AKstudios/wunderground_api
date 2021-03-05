@@ -11,8 +11,8 @@ Python script to extract historical hourly weather data from any personal weathe
 
 ## How to use
 1. Use [Wundermap](https://www.wunderground.com/wundermap) to find your PWS station ID (example: 'KILCHICA130')
-2. Enter start date on line 12 in 'YYYY-MM-DD' format
-3. Enter end date on line 13 in 'YYYY-MM-DD' format
-4. Enter station ID on line 14 between single quotes
-5. Set whether the script is run via CLI or in a web environment like Jupyter on line 16
+2. Enter start date on line 17 in 'YYYY-MM-DD' format
+3. Enter end date on line 18 in 'YYYY-MM-DD' format
+4. Enter station ID on line 19 between single quotes
+5. Set whether the script is run via CLI or in a web environment like Jupyter on line 15
 6. Weather data will be saved in individual csv files for each day (takes a few seconds per date)
