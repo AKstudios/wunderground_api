@@ -14,5 +14,5 @@ Python script to extract historical hourly weather data from any personal weathe
 2. Enter start date on line 17 in 'YYYY-MM-DD' format
 3. Enter end date on line 18 in 'YYYY-MM-DD' format
 4. Enter station ID on line 19 between single quotes
-5. Set whether the script is run via CLI or in a web environment like Jupyter on line 15
+5. Set whether the script is run via CLI or in a web environment like Jupyter on line 12
 6. Weather data will be saved in individual csv files for each day (takes a few seconds per date)
