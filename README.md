@@ -6,7 +6,7 @@ Python script to extract historical hourly weather data from any personal weathe
 - [pandas](https://pandas.pydata.org/)
 - [pyppeteer](https://pypi.org/project/pyppeteer/)
 - [BeautifulSoup 4](https://pypi.org/project/beautifulsoup4/)
-- [nest-asyncio](https://pypi.org/project/nest-asyncio/) (for script is run in a web or GUI environment like Jupyter or Spyder)
+- [nest-asyncio](https://pypi.org/project/nest-asyncio/) (for running the script in a web or GUI environment like Jupyter or Spyder)
 - [lxml](https://pypi.org/project/lxml/)
 
 ## How to use
